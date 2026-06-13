@@ -1,15 +1,53 @@
-key,value
-heroTitle,"사람과 업무 흐름을 정리해,
+﻿"key","value"
+"siteTitle","이서진 | 경영지원 포트폴리오"
+"siteName","이서진"
+"personName","이서진"
+"jobTitle","인사총무 · 경영지원"
+"footerText","공개본은 개인정보와 회사 내부자료를 비식별 처리했습니다."
+"heroEyebrow","HR & Operations Portfolio"
+"heroTitle","사람과 업무 흐름을 정리해,
 조직이 더 잘 움직이게 돕습니다."
-heroSubtitle,"맡은 일은 끝까지 책임지고, 문제가 생기면 피하지 않고 원인을 찾습니다."
-aboutTitle,"현장에서 배우고,
+"heroSubtitle","맡은 일은 끝까지 책임지고, 문제가 생기면 피하지 않고 원인을 찾습니다."
+"aboutTitle","현장에서 배우고,
 맡은 일을 끝까지 정리해온 사람"
-aboutIntro,"고객응대, 행정지원, 인사총무, 운영관리 경험을 통해 조직이 안정적으로 움직이도록 돕는 역할에 강점을 쌓아왔습니다."
-resumeTitle,"조직 운영을 안정적으로 받치는
+"aboutIntro","고객응대, 행정지원, 인사총무, 운영관리 경험을 통해 조직이 안정적으로 움직이도록 돕는 역할에 강점을 쌓아왔습니다."
+"aboutBody","고등학생 시절부터 다양한 현장 일을 경험하며 고객을 응대하고, 요청을 정리하고, 실무자와 고객 사이를 연결하는 일을 해왔습니다."
+"workPrinciples","맡은 일은 끝까지 책임지고 마무리합니다.
+서류, 일정, 요청사항을 누락 없이 정리합니다.
+문제가 생기면 피하지 않고 원인을 먼저 찾습니다."
+"resumeTitle","조직 운영을 안정적으로 받치는
 인사총무 · 경영지원 이력"
-resumeSubtitle,"채용 운영, 인사행정, 문서관리, 고객응대, 현장 인력 조율 경험을 한눈에 검토할 수 있도록 정리했습니다."
-profileImageUrl,Google Drive 사진 공유 링크를 여기에 붙여넣기
-resumePdfUrl,Google Drive 이력서 PDF 공유 링크를 여기에 붙여넣기
-jobkoreaPdfUrl,Google Drive 잡코리아 이력서 PDF 공유 링크를 여기에 붙여넣기
-contactEmail,example@gmail.com
-contactPhone,010-0000-0000
+"resumeSubtitle","채용 운영, 인사행정, 문서관리, 고객응대, 현장 인력 조율 경험을 한눈에 검토할 수 있도록 정리했습니다."
+"resumeSummary","조직 내부의 반복 업무와 누락 위험을 줄이는 실무 역량을 쌓았습니다."
+"profileStrengths","정리력 · 책임감 · 문제 해결"
+"education","고등학교 졸업학력 검정고시"
+"contactTitle","필요한 자료와 연락 정보를 확인하실 수 있습니다."
+"contactIntro","연락처는 화면에 바로 노출하지 않고, 버튼을 눌렀을 때만 표시됩니다."
+"contactEmail","alrnd1451@gmail.com"
+"contactPhone","010-3462-4026"
+"snsLinkedIn",""
+"snsGithub",""
+"snsBlog",""
+"snsInstagram",""
+"profileImageUrl","Google Drive 프로필 사진 공유 링크"
+"backgroundImageUrl","Google Drive 배경 이미지 공유 링크"
+"resumePdfUrl","Google Drive 이력서 PDF 공유 링크"
+"jobkoreaPdfUrl","Google Drive 잡코리아 이력서 PDF 공유 링크"
+"fallbackImageUrl",""
+"siteTheme","Light"
+"mainColor",""
+"subColor",""
+"backgroundColor",""
+"textColor",""
+"buttonColor",""
+"linkColor",""
+"accentColor",""
+"titleFontSize",""
+"subtitleFontSize",""
+"bodyFontSize",""
+"menuFontSize",""
+"buttonFontSize",""
+"profileCardBg",""
+"sectionBg",""
+"footerBg",""
+"profileAccentColor",""

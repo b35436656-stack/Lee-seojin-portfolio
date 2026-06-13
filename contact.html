@@ -11,7 +11,7 @@
     <a class="skip-link" href="#main">본문으로 이동</a>
     <header class="site-header">
       <nav class="nav" aria-label="주요 메뉴">
-        <a class="brand" href="index.html"><span class="brand-mark">SJ</span><span>이서진</span></a>
+        <a class="brand" href="index.html"><span class="brand-mark" data-cms="brandInitials">SJ</span><span data-cms="siteName">이서진</span></a>
         <button class="mobile-toggle" type="button" data-menu-toggle aria-label="메뉴 열기" aria-expanded="false">☰</button>
         <div class="nav-links" data-nav-links>
           <a href="index.html">Home</a>
@@ -27,12 +27,13 @@
       <section class="page-hero">
         <div class="wrap">
           <p class="eyebrow">Contact</p>
-          <h1>필요한 자료와 연락 정보를 확인하실 수 있습니다.</h1>
-          <p>연락처는 화면에 바로 노출하지 않고, 버튼을 눌렀을 때만 표시됩니다. 공개용 포트폴리오에서는 개인정보와 회사 내부자료를 최소화했습니다.</p>
+          <h1 data-cms="contactTitle">필요한 자료와 연락 정보를 확인하실 수 있습니다.</h1>
+          <p data-cms="contactIntro">연락처는 화면에 바로 노출하지 않고, 버튼을 눌렀을 때만 표시됩니다. 공개용 포트폴리오에서는 개인정보와 회사 내부자료를 최소화했습니다.</p>
           <div class="actions">
             <button class="button primary" type="button" data-contact-toggle aria-expanded="false">연락하기</button>
-            <a class="button" href="이서진_이력서.pdf" data-link-setting="resumePdfUrl" target="_blank" rel="noopener">이력서 PDF 보기</a>
+            <a class="button" href="이서진_이력서.pdf" data-cms-link="resumePdfUrl" target="_blank" rel="noopener">이력서 PDF 보기</a>
           </div>
+          <div class="actions compact" data-dynamic-sns></div>
           <div class="contact-panel" data-contact-panel aria-live="polite">
             <div class="contact-line">
               <div><strong>이메일</strong><br><a data-mail-link href="#"><span data-email></span></a></div>
@@ -71,7 +72,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer"><div class="wrap"><span>© 이서진 Portfolio</span><span>Contact</span></div></footer>
+    <footer class="footer"><div class="wrap"><span>© <span data-cms="personName">이서진</span> Portfolio</span><span data-cms="footerText">Contact</span></div></footer>
     <script src="site-config.js"></script>
     <script src="script.js"></script>
   </body>

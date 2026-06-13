@@ -11,7 +11,7 @@
     <a class="skip-link" href="#main">본문으로 이동</a>
     <header class="site-header">
       <nav class="nav" aria-label="주요 메뉴">
-        <a class="brand" href="index.html"><span class="brand-mark">SJ</span><span>이서진</span></a>
+        <a class="brand" href="index.html"><span class="brand-mark" data-cms="brandInitials">SJ</span><span data-cms="siteName">이서진</span></a>
         <button class="mobile-toggle" type="button" data-menu-toggle aria-label="메뉴 열기" aria-expanded="false">☰</button>
         <div class="nav-links" data-nav-links>
           <a href="index.html" aria-current="page">Home</a>
@@ -28,9 +28,9 @@
       <section class="hero">
         <div class="wrap hero-grid">
           <div>
-            <p class="eyebrow">HR & Operations Portfolio</p>
-            <h1 data-setting="heroTitle" data-lines>사람과 업무 흐름을 정리해, 조직이 더 잘 움직이게 돕습니다.</h1>
-            <p class="lead" data-setting="heroSubtitle">맡은 일은 끝까지 책임지고, 문제가 생기면 피하지 않고 원인을 찾습니다. 인사총무, 고객응대, 운영관리 경험을 바탕으로 반복 업무를 체계화하고 AI 도구를 활용한 업무 개선까지 시도하는 경영지원 실무자 이서진입니다.</p>
+            <p class="eyebrow" data-cms="heroEyebrow">HR & Operations Portfolio</p>
+            <h1 data-cms="heroTitle">사람과 업무 흐름을 정리해, 조직이 더 잘 움직이게 돕습니다.</h1>
+            <p class="lead" data-cms="heroSubtitle">맡은 일은 끝까지 책임지고, 문제가 생기면 피하지 않고 원인을 찾습니다. 인사총무, 고객응대, 운영관리 경험을 바탕으로 반복 업무를 체계화하고 AI 도구를 활용한 업무 개선까지 시도하는 경영지원 실무자 이서진입니다.</p>
             <div class="actions">
               <a class="button primary" href="portfolio.html">포트폴리오 보기</a>
               <a class="button" href="resume.html">이력 확인하기</a>
@@ -42,7 +42,7 @@
               <div class="metric"><strong>0</strong><span>원문 개인정보 노출</span></div>
             </div>
           </div>
-          <img class="visual" src="assets/operations-visual.svg" data-image-setting="profileImageUrl" alt="정돈된 문서, 체크리스트, 업무 흐름을 표현한 그래픽">
+          <img class="visual" src="assets/operations-visual.svg" data-cms-image="profileImageUrl" alt="정돈된 문서, 체크리스트, 업무 흐름을 표현한 그래픽">
         </div>
       </section>
 
@@ -75,7 +75,7 @@
             <h2>대표 사례</h2>
             <p>민감한 회사 자료와 타인 개인정보는 제외하고, 업무의 성격과 기여 방식만 비식별화해 보여줍니다.</p>
           </div>
-          <div class="grid two">
+          <div class="grid two" data-dynamic-featured>
             <article class="card">
               <span class="case-meta">Featured Case</span>
               <h3>AI와 파이썬을 활용한 업무 자동화 시도</h3>
@@ -98,8 +98,8 @@
 
     <footer class="footer">
       <div class="wrap">
-        <span>© 이서진 Portfolio</span>
-        <span>공개본은 개인정보와 회사 내부자료를 비식별 처리했습니다.</span>
+        <span>© <span data-cms="personName">이서진</span> Portfolio</span>
+        <span data-cms="footerText">공개본은 개인정보와 회사 내부자료를 비식별 처리했습니다.</span>
       </div>
     </footer>
     <script src="site-config.js"></script>

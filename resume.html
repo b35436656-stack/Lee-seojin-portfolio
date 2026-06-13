@@ -11,7 +11,7 @@
     <a class="skip-link" href="#main">본문으로 이동</a>
     <header class="site-header">
       <nav class="nav" aria-label="주요 메뉴">
-        <a class="brand" href="index.html"><span class="brand-mark">SJ</span><span>이서진</span></a>
+        <a class="brand" href="index.html"><span class="brand-mark" data-cms="brandInitials">SJ</span><span data-cms="siteName">이서진</span></a>
         <button class="mobile-toggle" type="button" data-menu-toggle aria-label="메뉴 열기" aria-expanded="false">☰</button>
         <div class="nav-links" data-nav-links>
           <a href="index.html">Home</a>
@@ -27,11 +27,11 @@
       <section class="page-hero">
         <div class="wrap">
           <p class="eyebrow">Resume</p>
-          <h1 data-setting="resumeTitle" data-lines><span class="line">조직 운영을 안정적으로 받치는</span><span class="line">인사총무 · 경영지원 이력</span></h1>
-          <p data-setting="resumeSubtitle">채용 운영, 인사행정, 문서관리, 고객응대, 현장 인력 조율 경험을 한눈에 검토할 수 있도록 정리했습니다.</p>
+          <h1 data-cms="resumeTitle"><span class="line">조직 운영을 안정적으로 받치는</span><span class="line">인사총무 · 경영지원 이력</span></h1>
+          <p data-cms="resumeSubtitle">채용 운영, 인사행정, 문서관리, 고객응대, 현장 인력 조율 경험을 한눈에 검토할 수 있도록 정리했습니다.</p>
           <div class="actions">
-            <a class="button primary" href="이서진_이력서.pdf" data-link-setting="resumePdfUrl" target="_blank" rel="noopener">이력서 PDF 보기</a>
-            <a class="button" href="이서진_잡코리아 이력서.PDF" data-link-setting="jobkoreaPdfUrl" target="_blank" rel="noopener">잡코리아 이력서 보기</a>
+            <a class="button primary" href="이서진_이력서.pdf" data-cms-link="resumePdfUrl" target="_blank" rel="noopener">이력서 PDF 보기</a>
+            <a class="button" href="이서진_잡코리아 이력서.PDF" data-cms-link="jobkoreaPdfUrl" target="_blank" rel="noopener">잡코리아 이력서 보기</a>
           </div>
           <div class="resume-highlight" aria-label="핵심 이력 요약">
             <div class="highlight-item"><strong>인사총무</strong><span>채용공고, 지원자 응대, 계약 및 근태 자료 관리</span></div>
@@ -45,13 +45,13 @@
         <div class="wrap resume-box">
           <article class="card">
             <h2>프로필 요약</h2>
-            <ul class="info-list">
+            <ul class="info-list" data-dynamic-profile>
               <li><span>이름</span><strong>이서진</strong></li>
               <li><span>희망 직무</span><strong>인사총무 · 경영지원</strong></li>
               <li><span>핵심 강점</span><strong>정리력 · 책임감 · 문제 해결</strong></li>
               <li><span>학력</span><strong>고등학교 졸업학력 검정고시</strong></li>
             </ul>
-            <div class="career-note">고객응대, 행정지원, 인사총무, 현장 운영을 거치며 조직 내부의 반복 업무와 누락 위험을 줄이는 실무 역량을 쌓았습니다.</div>
+            <div class="career-note" data-cms="resumeSummary">고객응대, 행정지원, 인사총무, 현장 운영을 거치며 조직 내부의 반복 업무와 누락 위험을 줄이는 실무 역량을 쌓았습니다.</div>
           </article>
           <article class="card">
             <h2>직무 역량</h2>
@@ -79,7 +79,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer"><div class="wrap"><span>© 이서진 Portfolio</span><span>Resume</span></div></footer>
+    <footer class="footer"><div class="wrap"><span>© <span data-cms="personName">이서진</span> Portfolio</span><span data-cms="footerText">Resume</span></div></footer>
     <script src="site-config.js"></script>
     <script src="script.js"></script>
   </body>
