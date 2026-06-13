@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>이서진 포트폴리오 사이트 운영 사용설명서</title>
+    <style>
+      body { font-family: "Noto Sans KR", "Apple SD Gothic Neo", Arial, sans-serif; line-height: 1.7; color: #2f3437; max-width: 860px; margin: 48px auto; padding: 0 24px; word-break: keep-all; }
+      h1 { font-size: 30px; border-bottom: 2px solid #3e6b5b; padding-bottom: 14px; }
+      h2 { margin-top: 34px; font-size: 22px; color: #3e6b5b; }
+      code, pre { background: #eef2ee; border-radius: 6px; }
+      code { padding: 2px 5px; }
+      pre { padding: 14px; overflow-x: auto; }
+      li { margin: 4px 0; }
+      @media print { body { margin: 0 auto; } }
+    </style>
+  </head>
+  <body>
+    <h1>이서진 포트폴리오 사이트 운영 사용설명서</h1>
+    <p>이 문서는 HTML, CSS, JavaScript, GitHub를 모르는 사람도 포트폴리오 내용을 수정할 수 있도록 만든 안내서입니다.</p>
+    <p>사이트 주소: https://b35436656-stack.github.io/Lee-seojin-portfolio/</p>
+    <h2>운영 방식</h2>
+    <p>글자 내용은 Google Sheets에서 수정하고, 사진과 이력서 PDF는 Google Drive에서 교체합니다.</p>
+    <h2>처음 한 번만 준비할 것</h2>
+    <ol><li>Google 스프레드시트를 만들고 이름을 <code>이서진 포트폴리오 관리표</code>로 바꿉니다.</li><li>시트 탭을 <code>Settings</code>, <code>Experience</code>, <code>Portfolio</code>로 만듭니다.</li><li><code>google-sheets-template</code> 폴더의 CSV 내용을 각 시트에 붙여넣습니다.</li><li>파일 > 공유 > 웹에 게시를 눌러 전체 문서를 게시합니다.</li><li>Google Sheet 주소에서 <code>/d/</code>와 <code>/edit</code> 사이의 Sheet ID를 복사해 <code>site-config.js</code>의 <code>googleSheetId</code>에 넣습니다.</li></ol>
+    <h2>자기소개 수정 방법</h2>
+    <p><code>Settings</code> 시트에서 <code>heroTitle</code>, <code>heroSubtitle</code>, <code>aboutTitle</code>, <code>aboutIntro</code>, <code>resumeTitle</code>, <code>resumeSubtitle</code> 값을 수정합니다.</p>
+    <h2>경력 추가 방법</h2>
+    <p><code>Experience</code> 시트에 새 행을 추가합니다. 기간, 회사명, 역할, 요약, 세부 업무, 태그를 입력하고 <code>visible</code>을 <code>TRUE</code>로 둡니다.</p>
+    <h2>포트폴리오 추가 방법</h2>
+    <p><code>Portfolio</code> 시트에 새 행을 추가합니다. 문제, 행동, 의미를 적으면 사이트에 사례 카드로 표시됩니다.</p>
+    <h2>사진 교체 방법</h2>
+    <p>Google Drive에 사진을 올리고 공유 설정을 링크가 있는 모든 사용자 보기로 바꾼 뒤, 링크를 <code>Settings</code> 또는 <code>Portfolio</code> 시트에 붙여넣습니다.</p>
+    <h2>이력서 PDF 교체 방법</h2>
+    <p>Google Drive에 새 PDF를 올리고 공유 링크를 복사한 뒤 <code>Settings</code> 시트의 <code>resumePdfUrl</code>에 붙여넣습니다.</p>
+    <h2>변경사항 반영 시간</h2>
+    <p>보통 1분에서 5분 안에 반영됩니다. 바로 보고 싶으면 브라우저 새로고침을 누릅니다.</p>
+    <h2>문제가 발생했을 때 확인 방법</h2>
+    <ul><li>시트 이름이 <code>Settings</code>, <code>Experience</code>, <code>Portfolio</code>인지 확인합니다.</li><li>Google Sheets가 웹에 게시되어 있는지 확인합니다.</li><li>Google Drive 파일 공유가 링크가 있는 모든 사용자 보기인지 확인합니다.</li><li><code>visible</code> 값이 <code>FALSE</code>이면 보이지 않으니 <code>TRUE</code>로 바꿉니다.</li></ul>
+    <h2>안전하게 운영하는 법</h2>
+    <p>주민등록번호, 계좌번호, 계약서 원본, 카드결제 정보, 회사 내부자료 원본, 자동화 코드 전문은 올리지 않습니다.</p>
+  </body>
+</html>

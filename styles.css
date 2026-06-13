@@ -395,6 +395,15 @@ p {
   gap: 14px;
 }
 
+.case-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--soft);
+}
+
 .case-meta {
   color: var(--green);
   font-weight: 900;
